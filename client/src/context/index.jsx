@@ -12,14 +12,16 @@ export const StateContextProvider = ({children}) => {
 
     const publishCampaign = async (form) => {
         try {
-            const data = await createCampaign([
-                address, //owner's address
-                form.title,
-                form.description,
-                form.target,
-                new Date(form.deadline).getTime(),
-                form.image
-            ]);
+            const data = await createCampaign({
+                args: [
+                    address, // owner's address
+                    form.title,
+                    form.description,
+                    form.target,
+                    new Date(form.deadline).getTime(),
+                    form.image
+                ],
+            });
 
             console.log("contract call success", data)
         } catch (error) {
@@ -32,6 +34,7 @@ export const StateContextProvider = ({children}) => {
             value={{
                 address,
                 contract,
+                connect,
                 createCampaign: publishCampaign
             }}
         >

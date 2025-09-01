@@ -9,7 +9,8 @@ Create a `.env ` file and add the following environement variables:
 3. ALCHEMY_API_KEY
 
 ## Tools Used
-- Thirdweb
+- Thirdweb: hosted smart contract, provided rpc
+- Hardhat
 - Solidity
 - Sepolia faucet
 - Metamask
