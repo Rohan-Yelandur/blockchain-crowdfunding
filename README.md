@@ -1,9 +1,7 @@
 # blockchain-crowdfunding
 
 ## Setup
-```
-npm install
-```
+Run `npm install` in the terminal
 
 Create a `.env ` file and add the following environement variables:
 1. METAMASK_PRIVATE_KEY
@@ -14,4 +12,6 @@ Create a `.env ` file and add the following environement variables:
 - Thirdweb
 - Solidity
 - Sepolia faucet
-- Metamask wallet
+- Metamask
+- Vite
+- TailwindCSS
