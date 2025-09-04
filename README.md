@@ -1,7 +1,9 @@
 # blockchain-crowdfunding
-OpenBackers (trademark possibly pending??) is a decentralized webapp that lets you crowdfund your best ideas! Anyone with a crypto wallet can donate ETH.
+OpenBackers (trademark possibly pending??) is a decentralized webapp that lets you crowdfund your best ideas! Anyone with a Metamask wallet can start creating campaigns and donating ETH.
 
 Live demo: https://openbackers.vercel.app/
+
+Ps. get some free test ETH here: https://cloud.google.com/application/web3/faucet/ethereum/sepolia
 
 ## Local Setup
 Run `npm install` in the terminal
